@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "lib": ["ES2023.Array", "ES2015.Collection"],
+        "module": "es2022",
+        "target": "ES2015",
+        "declaration": true,
+        "declarationDir": "./types",
+        "moduleResolution": "node",
+        "emitDeclarationOnly": true,
+    }
+}
