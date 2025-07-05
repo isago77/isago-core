@@ -16,4 +16,7 @@ export class APIError extends HTTPException {
 
     /** 유효하지 않은 전화번호 인증 토큰일 때. */
     static INVALID_PHONE_NUMBER_TOKEN = new APIError("INVALID_PHONE_NUMBER_TOKEN", 400);
+
+    /** 유효하지 않은 시리얼 키를 요청했을 때. */
+    static INVALID_SERIAL_KEY = new APIError("INVALID_SERIAL_KEY", 400);
 }
