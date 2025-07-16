@@ -1,4 +1,5 @@
 import * as http from "http";
+import { WebSocket } from "ws";
 import { HTTPException } from "../http/http_exception";
 
 export type SocketHandlerListener = (
